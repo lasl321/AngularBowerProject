@@ -1,0 +1,18 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div data-ng-app="main" data-ng-controller="MainController">
+    
+    <input type="text" data-ng-model="message" />
+
+    <my-message message="{{message}}"/>
+    
+
+</div>
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/angular")   
+    @Scripts.Render("~/bundles/application")
+}

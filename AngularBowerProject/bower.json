@@ -1,0 +1,24 @@
+{
+    "name": "AngularBowerProject",
+    "version": "0.0.0",
+    "authors": [
+        "Futuredontics"
+    ],
+    "license": "MIT",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "jquery": "^2.1.1",
+        "angular": "^1.3.4",
+        "angular-resource": "^1.3.4"
+    },
+    "devDependencies": { 
+        "angular-mocks": "^1.3.4"
+    }
+}
